@@ -6,4 +6,5 @@ This package has written in Java in order to support general operations on DFAs.
 I would appreciate your contibution in finding bugs, suggestiug new features. You are free to use this class or extend it's functionality free of charge.
 
 The package contains following classes:
+
 1. State: This class would keep information and status of a state. For more information check class documentation geenrated by JavaDoc.
