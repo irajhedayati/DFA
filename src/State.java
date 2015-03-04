@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * Class to keep information of each state
@@ -46,9 +45,9 @@ public class State {
      * })</code>
      * will create state A as initial and unreachable.
      *
-     * @param id
-     * @param label
-     * @param c_status
+     * @param id The ID of the state
+     * @param label The associated label for this state
+     * @param c_status List of state attributes can be associated to this state
      * @see StateAttributes
      */
     public State(int id, String label, ArrayList<StateAttributes> c_status) {
